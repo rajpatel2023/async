@@ -1,0 +1,62 @@
+My personal:
+	Name: Raj patel
+	
+	email: raj.patel@itidoltechnologies.com
+	password: Raj@1234
+	working on:
+		- zoho mail
+		- skype
+		
+	email: rp6455488@gmail.com
+	password: Raj@2023
+	working on:
+		- Google
+		- chatgpt
+	
+	
+Project Contain-upload:
+
+	- Company_name : MSP
+	- Woking_name: Ashihs M
+	
+	- External(Client)
+		- Email id: ashish.external@teachmint.com
+		- password: Ashish@2023
+		- phonenumber: 6352640130
+		- working on:
+			- Gmail
+			- Slack
+			- github
+				- Username: Ashishdev2023
+				- password: Ashish@2023 [2 step verification on]
+				- phonenumber: 6352640130 --verification
+	
+	- Internal
+		- Email: ashish.m@msp-group.co.uk
+		- password: M$p#2023
+		- working on:
+			- skype
+			
+Project Ubix:
+
+	- Woking_name: Ashihs M
+	
+	- External(Client)
+		- Email id: ashish.m@bacancy.com
+		- password: Ashish16@1
+		- phonenumber: 6352640130
+		- working on:
+			- github 
+				- username: ashishpython2023
+				- password: Ashishdev@2023
+				
+			- Gmail
+
+	- Internal
+		- Email id: amish@ubixlabs.com
+		- password:
+		- phonenumber: 6352640130
+		- working on:
+			- slack
+			- Email
+			- Google chat

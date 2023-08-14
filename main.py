@@ -1,4 +1,3 @@
-# import nessory pakages
 import pandas as pd
 from collections import defaultdict
 from offical_diksha_script import dikhsa
@@ -9,8 +8,6 @@ import random
 import string
 import uuid
 
-# load .env
-
 
 def generate_random_name(length=10):
     random_string = "".join(
@@ -20,51 +17,6 @@ def generate_random_name(length=10):
     return f"random_{random_string}_{unique_id}.mp4"
 
 
-# # Sheetname
-# sheet_name = "Mastersheet (English) - With OE"
-# df = pd.read_excel("UP Chapter List - For Ashish External.xlsx", sheet_name=sheet_name)
-# count = 0
-# for index, row in df.iterrows():
-#     file_name = row["Content file name ( Video File Name ) - NEW"]
-#     url = row["Content file name ( Video File Name )"]
-#     if type(file_name) == float:
-#         str(file_name)
-#         file_name = generate_random_name()
-#     if "youtu" in str(url):
-#         print("youtube ===========>", url)
-#         print("File name =========>", file_name)
-#         try:
-#             download_youtube_video(video_url=url, file_name=file_name)
-#             print("1")
-#             ffmpeg_command(file_name=file_name)
-#         except Exception as e:
-#             error_files.append({url: e})
-
-#     elif "diksha" in str(url):
-#         print("diksha ===========>", url)
-#         try:
-#             dikhsa(url, file_name=file_name)
-#             ffmpeg_command(file_name=file_name)
-#         except Exception as e:
-#             error_files.append({url: e})
-#     else:
-#         print(f"Unknown URL type: {url}")
-#         unknown_urls.append(url)
-#     count += 1
-
-
-# error_files_df = pd.DataFrame(error_files)
-# # Save the DataFrame as CSV
-# csv_filename = "url_errors.csv"
-# df.to_csv(csv_filename, index=False)
-# print("DataFrame saved as CSV:", csv_filename)
-
-
-# unknown_urls_df = pd.DataFrame(unknown_urls)
-# # Save the DataFrame as CSV
-# csv_filename = "unknown_urls_df.csv"
-# df.to_csv(csv_filename, index=False)
-# print("DataFrame saved as CSV:", csv_filename)
 def optimize_code(df):
     error_files = []
     unknown_urls = []
